@@ -2,6 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Place from './components/Place';
+import User from './components/User';
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +21,10 @@ function App() {
         >
           Learn React
         </a>
+        <br/>
+        <Place />
+        <br />
+        <User />
       </header>
     </div>
   );
